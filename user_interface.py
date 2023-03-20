@@ -1,5 +1,6 @@
 import keyboard
 from logg import logging
+from operation import create_note
 
 
 def start_menu():
@@ -39,6 +40,7 @@ def menu_notes(type_numbers):
             match type_operation:
                 case "1":
                     logging.info("Выбор операции - Добавление новой заметки")
+                    create_note()
                     print("Для продолжения нажмите пробел!!!")
                     pause()
                 case "2":

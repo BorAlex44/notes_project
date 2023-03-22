@@ -1,6 +1,6 @@
 import keyboard
 from logg import logging
-from operation import create_note, show_notes
+from operation import create_note, show_notes, deleting_note, find_note_by_id, find_note_by_data, edit_notes
 
 
 def start_menu():
@@ -50,17 +50,21 @@ def menu_notes(type_numbers):
                     pause()
                 case "3":
                     logging.info("Выбор операции - Удаление заметки")
+                    deleting_note()
                     print("Для продолжения нажмите пробел!!!")
                     pause()
                 case "4":
                     logging.info("Выбор операции - Редактирование заметки")
+                    edit_notes()
                     print("Для продолжения нажмите пробел!!!")
                     pause()
                 case "5":
                     logging.info("Выбор операции - Поиск заметки по дате")
+                    find_note_by_data()
                     print("Для продолжения нажмите пробел!!!")
                     pause()
                 case "6":
+                    find_note_by_id()
                     logging.info("Выбор операции - Поиск заметки по номеру")
                     print("Для продолжения нажмите пробел!!!")
                     pause()
@@ -78,4 +82,4 @@ def pause():
             break
 
 
-start_menu()
+

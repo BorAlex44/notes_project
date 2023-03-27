@@ -1,0 +1,23 @@
+22-03-2023 21:54:17 - user_interface - INFO - start_menu - Главное меню
+22-03-2023 21:54:20 - user_interface - INFO - start_menu - Вход в меню Операции
+22-03-2023 21:54:21 - user_interface - INFO - menu_notes - Выбор операции - Добавление новой заметки
+22-03-2023 21:54:57 - operation - INFO - create_note - Создана новая заметка с ID - f4f
+22-03-2023 21:55:14 - user_interface - INFO - menu_notes - Выбор операции - Показать все заметки
+22-03-2023 21:55:27 - user_interface - INFO - menu_notes - Выбор операции - Редактирование заметки
+22-03-2023 21:56:06 - operation - INFO - edit_notes - Название заметки с ID-f4f изменено
+22-03-2023 21:56:09 - user_interface - INFO - menu_notes - Некорректый ввод
+22-03-2023 21:56:12 - user_interface - INFO - menu_notes - Выбор операции - Редактирование заметки
+22-03-2023 21:56:37 - operation - INFO - edit_notes - Содержание заметки с ID-f4f изменено
+22-03-2023 21:56:43 - user_interface - INFO - menu_notes - Выбор операции - Поиск заметки по дате
+22-03-2023 21:56:56 - user_interface - INFO - menu_notes - Выбор операции - Поиск заметки по дате
+22-03-2023 21:57:04 - operation - INFO - find_note_by_data - Ошибка ввода
+22-03-2023 21:57:21 - user_interface - INFO - menu_notes - Выбор операции - Поиск заметки по номеру
+22-03-2023 21:57:24 - user_interface - INFO - menu_notes - Некорректый ввод
+22-03-2023 21:57:31 - operation - INFO - find_note_by_id - Ошибка ввода
+22-03-2023 21:57:31 - user_interface - INFO - menu_notes - Выбор операции - Поиск заметки по номеру
+22-03-2023 21:57:35 - user_interface - INFO - menu_notes - Выбор операции - Удаление заметки
+22-03-2023 21:57:44 - operation - INFO - deleting_note - Заметка с ID - 3a0 удалена!!!!
+22-03-2023 21:57:44 - operation - INFO - deleting_note - Удалена заметка с ID - 3a0
+22-03-2023 21:57:49 - user_interface - INFO - menu_notes - Выход в главное меню
+22-03-2023 21:57:49 - user_interface - INFO - start_menu - Главное меню
+22-03-2023 21:57:51 - user_interface - INFO - start_menu - Окончание работы
